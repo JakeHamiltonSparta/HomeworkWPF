@@ -1,0 +1,14 @@
+﻿<Window x:Class="GameSelectForm.RobbersStartForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GameSelectForm"
+        mc:Ignorable="d"
+        Title="RobbersStartForm" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="RobbersStartButton" Content="Start" HorizontalAlignment="Left" Margin="274,202,0,0" VerticalAlignment="Top" Width="241" FontFamily="Arial Rounded MT Bold" FontSize="18" Height="107" Click="RobbersStartButton_Click"/>
+        <Label x:Name="RobbersLabel" Content="Welcome to Robbers!" HorizontalAlignment="Left" Margin="300,117,0,0" VerticalAlignment="Top" FontFamily="Arial Rounded MT Bold" FontSize="18"/>
+
+    </Grid>
+</Window>
